@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  
+}
+
+/* Estilização Navbar */
+.navbar{
+  background-color:#536E93;
+}
+
+.navbar-brand {
+  border-radius: 50%;
+  width: 101px;
+  margin-left: 2rem;
+}
+
+.navbar-nav {
+  gap: 50px;
+}
+/* Fim da Estilização Navbar */
+
+
+
+/* Estilização Carrossel */
+.carousel-item {
+  max-height: 500px;
+}
+
+.carousel-caption h1 {
+  margin-bottom: 17vh;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.carousel-caption p{
+  font-weight: 200;
+}
+/* Fim da Estilização Carrossel */
+
+
+/* Estilização Cards com links */
+.card {
+  margin-top: 20px;
+  padding: 10px;
+  width: 900px;
+  text-align: center;
+  animation: slideInFromLeft 0.8s ease-out;
+}
+
+.card-body a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #264C95;
+  transition: 0.2s ease;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in-out;
+  font-size: 1.5rem;
+}
+
+.card-body p{
+  margin-top: 20px;
+  color: #264C95;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card-body a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-body h2{
+  text-align: center;
+  background-color: #536E93;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* fim da Estilização Cards com links */
+
+
+/* Estilização Card About */
+.sesso3 {
+  background: url(/Assets/IMG-7.png) no-repeat center center;
+  background-size: cover;
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.description-about{
+  display: flex;
+  gap: 20px;
+  margin: 15px;
+}
+
+.description-about-1 {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.description-about-2{
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.rect-1{
+  background-color: #438AA2;
+  width: 500px;
+  height: 5px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.Expl-1, .Expl-2 {
+  color: #fff;
+  background-color: #16202ec1;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.2rem;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  transform: translateX(-100%);
+  opacity: 0; 
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.show {
+  transform: translateX(0); 
+  opacity: 1; 
+}
+
+@media screen and (max-width: 1024px) {
+  .description-about{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .Expl-1{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 20px;
+    }
+  
+  .Expl-2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 20px;
+   }
+}
+/* Fim da Estilização Card About */
+
+/* Estilização Footer */
+
+.rodape {
+  background: url(/Assets/IMG-8.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 100%; 
+}
+
+.infos-general {
+  display: flex;
+  justify-content: space-around;
+  height: 100%; 
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10vh;
+  margin-left: 2rem;
+}
+
+.Contact h5 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.Contact p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.Logo-profile {
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.email-project {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.Location {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.Location p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.rect-2{
+  border-radius: 40px;
+  margin-top: 2rem;
+  width: 6px;
+  height: 270px;
+  background-color: #536E93;
+}
+
+.rect-3{
+  border-radius: 40px;
+  margin-top: 2rem;
+  width: 6px;
+  height: 270px;
+  background-color: #536E93;
+}
+
+@media screen and (max-width: 1155px) {
+  .infos-general {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .Contact, .email, .Location {
+    width: 100%; 
+    margin: 0; 
+    text-align: center; 
+    margin-top: 10px;
+  }
+
+  .Logo-profile {
+    width: 80px; 
+    margin-top: 10px; 
+  }
+
+  .Contact h5, .Contact p, .email-project, .Location p {
+    font-size: 1.2rem; 
+    margin: 0.5rem 0; 
+  }
+
+  .rect-2{
+    margin-bottom: 30px;
+    height: 5px;
+    width: 100%;
+  }
+
+  .rect-3{
+    margin-bottom: 30px;
+    height: 5px;
+    width: 100%;
+  }
+}
+/* Fim da Estilização Footer */
+
