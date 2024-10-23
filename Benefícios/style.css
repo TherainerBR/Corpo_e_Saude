@@ -3,7 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Poppins;
-  
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Estilização Navbar */
@@ -23,14 +26,186 @@
 /* Fim da Estilização Navbar */
 
 
+/* Estilização da Main Page */
+.back-img {
+  background-image: url(/Assets/IMG-3-enhanced.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh; 
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.title-benefits h1{
+  color: #fff;
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+.title-benefits p {
+  margin-right: 10rem;
+  text-align: right;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.description-benefits h2{
+  color: #fff;
+  font-weight: 200;
+}
+
+.description-benefits p{
+  color: #fff;
+  font-weight: 200;
+}
 
 
 
+.desc-cards {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 20rem;
+}
+
+.cards {
+  margin-top: 5rem;
+  gap: 2rem;
+  display: flex;
+}
+
+.card1 {
+  background-color: #0F1A36;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.card1 p{
+  text-align: center;
+}
+
+.card1 h2 {
+  text-align: center;
+}
+
+.card2 {
+  background-color: #0f1a36;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.card2 p{
+  text-align: center;
+}
+
+.card2 h2 {
+  text-align: center;
+}
+
+.card3 {
+  background-color: #0f1a36;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.card4 {
+  background-color: #0f1a36;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.card3 p{
+  text-align: center;
+}
+
+.card3 h2 {
+  text-align: center;
+}
+
+.card4 p{
+  text-align: center;
+}
+
+.card4 h2 {
+  text-align: center;
+}
+
+.card1, .card2, .card3, .card4 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1, .card2, .card3, .card4 {
+    max-width: 100%;
+  }
+}
+
+.hidden {
+  opacity: 0; 
+  transform: translateY(20px); 
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; 
+}
+
+.visible {
+  opacity: 1; 
+  transform: translateY(0); 
+}
+
+.fade-in {
+  opacity: 0; 
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; 
+  transform: translateY(20px); 
+}
+
+.fade-in.visible {
+  opacity: 1; 
+  transform: translateY(0); 
+}
+
+.card1, .card2, .card3, .card4 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover {
+  transform: scale(1.05);
+}
 
 
-
-
-
+/* Fim estilização da Main Page */
 
 
 
@@ -44,13 +219,13 @@
   background-size: cover;
   width: 100%;
   position: relative;
-  height: 100%; /* Verifique se essa altura é suficiente */
+  height: 100%; 
 }
 
 .infos-general {
   display: flex;
   justify-content: space-around;
-  height: 100%; /* Garante que os itens ocupem toda a altura do rodapé */
+  height: 100%; 
 }
 
 .Contact {
@@ -76,7 +251,7 @@
 .email {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza o conteúdo */
+  align-items: center; 
 }
 
 .Logo-profile {

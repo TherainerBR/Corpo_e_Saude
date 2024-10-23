@@ -1,3 +1,4 @@
+
 // Script Card reveal
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();
@@ -31,3 +32,4 @@ setInterval(() => {
     const carousel = new bootstrap.Carousel(carouselElement);
     carousel.to(Array.from(carouselElement.querySelectorAll('.carousel-item')).indexOf(nextItem));
 }, intervalTime);
+
