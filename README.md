@@ -29,4 +29,8 @@ Atualizações do projeto - 17/10/2024:
 Vídeos das páginas:
 - HomePage
 https://github.com/user-attachments/assets/4fa99453-2315-449e-b302-479c6b82cead
+- Benefícios
+https://github.com/user-attachments/assets/af10bca9-3fd6-4ee7-b6a0-16711ccb01e1
+
+  
 
