@@ -19,3 +19,5 @@ Vídeos das páginas:
 
 - HomePage https://github.com/user-attachments/assets/4fa99453-2315-449e-b302-479c6b82cead
 - Benefícios https://github.com/user-attachments/assets/af10bca9-3fd6-4ee7-b6a0-16711ccb01e1
+- Calculadora IMC https://github.com/user-attachments/assets/cb33b721-c722-4f95-841d-90d87c0bff6b
+
