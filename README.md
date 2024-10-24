@@ -31,6 +31,10 @@ Vídeos das páginas:
 https://github.com/user-attachments/assets/4fa99453-2315-449e-b302-479c6b82cead
 - Benefícios
 https://github.com/user-attachments/assets/af10bca9-3fd6-4ee7-b6a0-16711ccb01e1
+<<<<<<< HEAD
 
   
+=======
+- Calculadora IMC
+>>>>>>> 6089ce7 (Add commit)
 
