@@ -8,17 +8,17 @@ Funcionalidades: Seção "Sobre": Apresenta os principais benefícios das ativid
 
 Tecnologias Utilizadas: HTML5: Estruturação do conteúdo. CSS3: Estilização das páginas e ajustes de layout. Bootstrap: Framework CSS para responsividade e design dos componentes. Figma: Ferramenta utilizada para a criação dos protótipos. JavaScript: Interatividade e dinâmica do site.
 
-Atualizações do projeto - 07/11/2024:
+Atualizações do projeto - 19/11/2024:
 
-HomePage -> Finalizada
+HomePage -> Aprovada
 
-Benefícios -> Para aprovação...
+Benefícios -> Aprovada
 
-Dicas -> Para aprovação...
+Dicas -> Aprovada
 
-Calculadora IMC -> Para aprovação...
+Calculadora IMC -> Aprovada
 
-APPs -> Em andamento...
+APPs -> Para aprovação...
 
 Vídeos das páginas:
 
