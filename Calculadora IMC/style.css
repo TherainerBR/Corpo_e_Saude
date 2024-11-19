@@ -46,7 +46,7 @@
 }
 
 .img-calc {
-  background-image: url(/Assets/TESTE-enhanced.png);
+  background: url(/Assets/TESTE-enhanced.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
