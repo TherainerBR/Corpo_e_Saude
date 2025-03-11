@@ -18,7 +18,7 @@ Dicas -> Aprovada
 
 Calculadora IMC -> Aprovada
 
-APPs -> Para aprovação...
+APPs -> Aprovada
 
 Vídeos das páginas:
 
